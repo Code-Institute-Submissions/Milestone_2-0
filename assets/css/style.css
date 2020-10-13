@@ -1,0 +1,23 @@
+/*--------------------------------Nav Bar*/
+
+#nav{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 30px;
+}
+.bg-color-navbar{
+    background-color:#F9bCAF;
+ }
+/*--.logo {
+    background:url("../images/oka.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 360px;
+    transition:all .5s ease-in-out;
+    -moz-transition:all .5s ease-in-out;
+    -webkit-transition:all .5s ease-in-out;
+
+}*/
+
+/*--------------------------------Footer*/
