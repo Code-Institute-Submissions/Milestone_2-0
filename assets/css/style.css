@@ -1,23 +1,124 @@
-/*--------------------------------Nav Bar*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:100,200,300,400,500,600,700|"Roboto":100,200,300,400,500,600,700&display=swap');
 
+
+/*--------------------------------Nav Bar*/
+/*---.oka-logo {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 360px;*/
+}
 #nav{
     padding-left: 0;
     padding-right: 0;
     margin-bottom: 30px;
 }
-.bg-color-navbar{
-    background-color:#F9bCAF;
- }
-/*--.logo {
-    background:url("../images/oka.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    min-height: 360px;
-    transition:all .5s ease-in-out;
-    -moz-transition:all .5s ease-in-out;
-    -webkit-transition:all .5s ease-in-out;
+.navbar{
+    background-color:#f8f9fa;
+    color: #141a46;
+    height: 60px;
+}
 
-}*/
 
+/*--------------------------------Home Page section #1*/
+.btn-info{
+    width: 50%;
+    align: center;
+    box-align: center;
+
+}
 /*--------------------------------Footer*/
+#footer-details{
+    font-size: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 50;
+    width: 100%;
+    margin: 0;
+    min-height: 120px;
+    line-height: 20px; /* Vertically center the text there */
+    background-color: #f8f9fa;
+    text-align: center;
+    color: #141a46;
+}
+
+ .social-links li a i{
+    width: 32px;
+    height:32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 9px;
+    text-align: center;
+    color: #fac9bf;
+    background:#fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover{
+    background:#141a46;
+}
+
+.general-sub {
+    padding-top: 5%;
+    font-family: "Raleway", "Exo";
+    font-weight: 400;
+}
+ 
+.footer-text {
+    font-family: "Raleway", "Exo";
+    font-weight: 200;
+    letter-spacing: .5px;
+    height: 0px;
+
+}
+    /*--------------------------------Sign up*/
+ .jumbotron{
+     text-align: center;
+     background-color: rgba(250,201,191,.7);
+     color: #141a46;
+     font-family: "Raleway", "Exo";
+     width: 60%;
+     margin: 10px auto;
+     display: flex;
+     justify-content: center;
+     box-shadow: 5px 10px;  
+      
+ }
+ 
+ .lead {
+     font-weight: 200;
+     height: 2;
+
+ }
+ .jfoot {
+     font-weight: 200;
+     font-style: italic;
+     height: 5;
+    
+ }
+
+ .center-form, .form-group{
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 70%;
+    justify-content: center;
+    font-family: "Raleway", "Exo";
+}
+
+.verify{
+    font-weight: 200;
+    font-size: 15px;
+    font-family: "Raleway", "Exo";
+}
+.btn-submit[type="submit"]{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #141a46;
+    background-color: #fac9bf;
+    justify-content: center;
+    font-family: "Raleway", "Exo";
+}
