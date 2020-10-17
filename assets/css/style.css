@@ -13,7 +13,7 @@
     padding-right: 0;
     margin-bottom: 30px;
 }
-.navbar{
+.navbar-collapse{
     background-color:#f8f9fa;
     color: #141a46;
     height: 60px;
@@ -21,11 +21,55 @@
 
 
 /*--------------------------------Home Page section #1*/
-.btn-info{
-    width: 50%;
-    align: center;
-    box-align: center;
+.hcard{
+    background-color:  rgba(250,201,191,.5);
+    text-align: center;
+    color:#141a46;
+    font-family: "Raleway", "Exo";
+}
 
+.product1 {
+  max-width: 100%;
+  height: auto;
+  padding-top: 20px;
+}
+.oka-logo{
+    padding: 0;
+    margin-bottom: 0;
+}
+.sm-text{
+    font-weight: italic;
+    text-align: center;
+    color:#141a46;
+    font-family: "Raleway", "Exo";
+}
+.lg-text{
+    font-weight: 400;
+    text-align: center;
+    color:#141a46;
+    font-family: "Raleway", "Exo";
+}
+
+.product2-text {
+    justify-content: center;
+    text-align: justify;
+}
+.btn{
+    width: 50%;
+    justify-content: center;
+    box-align: center;
+    background-color: #141a46;
+    color:#fac9bf;
+    margin-top: 15px;
+}
+.btn :hover{
+     background-color: #fac9bf;
+     color: #141a46;
+}
+
+.product2{
+    padding: 20px 20px 0 0;
+    justify-content: center;
 }
 /*--------------------------------Footer*/
 #footer-details{
@@ -121,4 +165,5 @@
     background-color: #fac9bf;
     justify-content: center;
     font-family: "Raleway", "Exo";
+    align-content: center;
 }
