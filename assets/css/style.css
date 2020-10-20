@@ -2,12 +2,6 @@
 
 
 /*--------------------------------Nav Bar*/
-/*---.oka-logo {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    min-height: 360px;*/
-}
 #nav{
     padding-left: 0;
     padding-right: 0;
@@ -19,13 +13,15 @@
     height: 60px;
 }
 
-
 /*--------------------------------Home Page section #1*/
-.hcard{
+.hcard,
+.secure{
     background-color:  rgba(250,201,191,.5);
     text-align: center;
     color:#141a46;
     font-family: "Raleway", "Exo";
+    margin:0;
+    padding:0;
 }
 
 .product1 {
@@ -38,7 +34,6 @@
     margin-bottom: 0;
 }
 .sm-text{
-    font-weight: italic;
     text-align: center;
     color:#141a46;
     font-family: "Raleway", "Exo";
@@ -48,41 +43,64 @@
     text-align: center;
     color:#141a46;
     font-family: "Raleway", "Exo";
+    margin-top:30px;
 }
 
-.product2-text {
-    justify-content: center;
-    text-align: justify;
-}
 .btn{
     width: 50%;
     justify-content: center;
     box-align: center;
-    background-color: #141a46;
-    color:#fac9bf;
+    background-color: #141a46;    
     margin-top: 15px;
+    color: #fac9bf;
 }
-.btn :hover{
-     background-color: #fac9bf;
-     color: #141a46;
+.btn:hover{
+    background-color: #fac9bf;
+    color: #141a46;
 }
 
 .product2{
     padding: 20px 20px 0 0;
     justify-content: center;
 }
+.three-reasons{
+    padding-top: 20px;
+    margin-top: 15px;
+}
+
+.three-reasons i{
+    width: 32px;
+    height:32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 15px;
+    line-height: 9px;
+    text-align: center;
+    color: #141a46;
+    background:#fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.three-reasons i:hover{
+    background:#141a46;
+    color: #fac9bf;
+}
+
 /*--------------------------------Footer*/
 #footer-details{
     font-size: 10px;
-    position: absolute;
+    footer-details: absolute;
     left: 0;
     bottom: 50;
     width: 100%;
-    margin: 0;
+    margin:px 0;
     min-height: 120px;
     line-height: 20px; /* Vertically center the text there */
     background-color: #f8f9fa;
-    text-align: center;
+    text-align: center;    
     color: #141a46;
 }
 
@@ -131,21 +149,21 @@
      justify-content: center;
      box-shadow: 5px 10px;  
       
- }
  
+      
  .lead {
      font-weight: 200;
      height: 2;
 
  }
  .jfoot {
-     font-weight: 200;
+xp     font-weight: 200;
      font-style: italic;
      height: 5;
     
- }
-
- .center-form, .form-group{
+s
+    
+xp .center-form, .form-group{
     padding-top: 10px;
     margin:0 auto;
     max-width: 70%;
