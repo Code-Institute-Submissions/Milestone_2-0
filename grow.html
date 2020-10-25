@@ -13,30 +13,33 @@
 </head>
 <body>
 <!--Nav Bar/ responsive element not working -->
-<header>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="index.html"><img src = "assets/images/oka.png" alt = "oka_logo" width="50px"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Save Your Money <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="grow.html">Grow Your Money</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="signup.html">Get Started</a>
-      </li>
-    </ul>
-    <span class="navbar-text">
-      Start saving for the things that really matter...
-    </span>
-  </div>
-</nav>
-</header>
+ <header>
+ <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand oka-logo" href="index.html"><img src="assets/images/oka.png" alt="oka_logo" width="50px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Save Your Money <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="grow.html">Grow Your Money</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="signup.html">Get Started</a>
+                    </li>
+                </ul>
+                <span class="navbar-text switcher">
+                    Start saving for the things that really matter...
+                </span>
+            </div>
+        </nav>
+ </div>
+    </header>
 
 
 <section>
@@ -44,49 +47,56 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                <h3 class="lg-text"> Dont just save your money make it grow </h3>
-                    <p class="sm-text">With an Oka grow account you watch your money grow as you gain
+                    <p class="personal"> Dont Just Save Your Money, Make It Grow! </p>
+                    <p class="md-text">With an Oka grow account you watch your money grow as you gain
                     interest on the money you have saved over a set period of time.  
                     Start investing your money now.</p>
+                    <div class="text-center">
+                        <a href="signup.html" class="sign-up">
+                        <button type="button" class="btn btn-lg btn-inline" data-toggle="button">
+                            Get Started
+                        </button>
+                        </a>
+                    </div>
                 </div>
                 <div class="col">
                 <img src = "assets/images/product3.png" alt = "product3" width="350px">
                 </div>
         </div>
   <!--Your money is Secure section -->
-        <div class="container-fluid hcard">
+        <div class="container hcard">
             <div class="row">
                 <div class="col">
-                <h3 class="lg-text">We make sure you reach your goal</h3>
-                <p class="sm-text">Koa has one objective, to make sure you reach your financial goals. 
-                We have built a set of features that make it easy for you to achieve your goals</p>
+                <h3 class="lg-text">We Make Sure You Reach Your Goal!</h3>
+                <p class="secure-text">Koa has one objective, to make sure you reach your financial goals. 
+                We have built a set of features that make it easy for you to achieve your goals!</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row reach-goal">
                 <div class="col">
                 <h2 class="lg-text"> <i class="fa fa-id-card" aria-hidden="true"></i> Personalized Goals </h2>
-                <p class="sm-text">Set personal saving goals that matter to you. You could 
-                save for an upcoming trip or a save up for a big purchase</p>
+                <p class="secure-text">Set personal saving goals that matter to you. You could 
+                save for an upcoming trip or a save up for a big purchase.</p>
                 </div>
+
                 <div class="col">
                 <h2 class="lg-text"> <i class="fa fa-dollar" aria-hidden="true"></i> Top-up Reminders </h2>
-                <p class="sm-text">We help you break down your goals and send you daily, weekly
+                <p class="secure-text">We help you break down your goals and send you daily, weekly
                  or monthly reminders to deposit into them.</p>
                 </div>
                 <div class="col">
                 <h2 class="lg-text"> <i class="fa fa-line-chart" aria-hidden="true"></i> Track Goal Progress </h2>
-                <p class="sm-text">We allow you to track the progress of your goal overtime and help 
+                <p class="secure-text">We allow you to track the progress of your goal overtime and help 
                 you get back on track if you happen to stumble.</p>
                 </div>
             </div>
         </div>
         </div>
-  
   </section>
    
    
     <!--  Footer -->   
-    <footer class= "footer container-fluid">
+    <footer class= "footer container">
         <div id= "footer-details" class="row no-gutters">
 
             <div class="col-sm-4">
@@ -133,6 +143,7 @@
                     </ul>
             </div>
         </div>
+
     </footer>
     <!--  -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

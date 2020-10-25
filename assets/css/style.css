@@ -1,187 +1,257 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:100,200,300,400,500,600,700|"Roboto":100,200,300,400,500,600,700&display=swap');
-
+* {
+    font-size: 10px;
+}
+p {
+    font-size: 1.6rem;
+}
+/*--section {
+   height: 40vh;
+}
 
 /*--------------------------------Nav Bar*/
-#nav{
+#nav {
     padding-left: 0;
     padding-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 3rem;
 }
-.navbar-collapse{
-    background-color:#f8f9fa;
+.navbar-collapse {
+    background-color: #f8f9fa;
     color: #141a46;
-    height: 60px;
+    height: 6rem;
 }
 
-/*--------------------------------Home Page section #1*/
+.nav-text{
+ font-size: 3rem;
+ font-weight: bold;
+}
+/*--------------------------------Home Page*/
 .hcard,
-.secure{
-    background-color:  rgba(250,201,191,.5);
+.secure {
+    background-color: rgba(250, 201, 191, .5);
     text-align: center;
-    color:#141a46;
+    color: #141a46;
     font-family: "Raleway", "Exo";
-    margin:0;
-    padding:0;
-}
+    margin: 0;
+    padding: 0;
 
-.product1 {
-  max-width: 100%;
-  height: auto;
-  padding-top: 20px;
 }
-.oka-logo{
+.product1 {
+    max-width: 100%;
+    height: auto;
+    padding-top: 2rem;
+}
+.oka-logo {
     padding: 0;
     margin-bottom: 0;
 }
-.sm-text{
+.sm-text {
     text-align: center;
-    color:#141a46;
+    color: #141a46;
     font-family: "Raleway", "Exo";
+    font-size: 1rem;
+    font-weight: italic;
 }
-.lg-text{
+.lg-text {
     font-weight: 400;
     text-align: center;
-    color:#141a46;
+    color: #141a46;
     font-family: "Raleway", "Exo";
-    margin-top:30px;
+    margin-top: 1rem;
 }
 
-.btn{
+.md-text {
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #141a46;
+    font-family: "Raleway", "Exo";
+    margin-top: 1rem;
+}
+
+.personal {
+    text-align: center;
+    color: #141a46;
+    font-family: "Raleway", "Exo";
+    font-size: 2rem;
+    margin-top: 6rem;
+    margin-bottom:5rem;
+}
+
+.safe{
+    font-weight: 400;
+    text-align: center;
+    color: #141a46;
+    font-family: "Raleway", "Exo";
+    margin-top: 4rem;
+}
+.btn {
     width: 50%;
     justify-content: center;
     box-align: center;
-    background-color: #141a46;    
-    margin-top: 15px;
+    background-color: #141a46;
+    margin-top: 1rem;
     color: #fac9bf;
+    font-family: "Raleway", "Exo";
+
 }
-.btn:hover{
+.btn:hover {
     background-color: #fac9bf;
     color: #141a46;
 }
-
-.product2{
-    padding: 20px 20px 0 0;
+.switcher {
+    visibility: hidden;
+}
+.product2 {
+    padding: 2rem 2rem 0 0;
     justify-content: center;
+    margin-bottom:2rem;
+    margin-top:2rem;
 }
-.three-reasons{
-    padding-top: 20px;
-    margin-top: 15px;
+.product2 img {
+    width: 100%;
 }
-
-.three-reasons i{
-    width: 32px;
-    height:32px;
-    padding: 12px 0;
+.three-reasons {
+    padding-top: 2rem;
+    margin-top: 1rem;
+}
+.three-reasons i {
+    width: 3rem;
+    height: 3rem;
+    padding: 1.2rem 0;
     border-radius: 50%;
-    font-size: 15px;
-    line-height: 9px;
+    font-size: 1.5rem;
+    line-height: .9rem;
     text-align: center;
     color: #141a46;
-    background:#fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    background: #fafafa;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+.three-reasons i:hover {
+    background: #141a46;
+    color: #fac9bf;
+}
+/*--------------------------------Grow page*/
+.reach-goal i {
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 1.2rem 0;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    line-height: .9rem;
+    text-align: center;
+    color: #fac9bf;
+    background: #fafafa;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+}
+.reach-goal i:hover {
+    background: #141a46;
 }
 
-.three-reasons i:hover{
-    background:#141a46;
-    color: #fac9bf;
+.secure-text{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #141a46;
+    font-family: "Raleway", "Exo";
+    margin-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 /*--------------------------------Footer*/
-#footer-details{
-    font-size: 10px;
-    footer-details: absolute;
+#footer-details {
+    font-size: 1rem;
     left: 0;
     bottom: 50;
     width: 100%;
-    margin:px 0;
-    min-height: 120px;
-    line-height: 20px; /* Vertically center the text there */
+    margin: 0;
+    min-height: 12rem;
+    line-height: 2rem; /* Vertically center the text there */
     background-color: #f8f9fa;
-    text-align: center;    
+    text-align: center;
     color: #141a46;
 }
-
- .social-links li a i{
-    width: 32px;
-    height:32px;
-    padding: 12px 0;
+.social-links li a i {
+    width: 3.2rem;
+    height: 3.2rem;
+    padding: 1.2rem 0;
     border-radius: 50%;
-    font-size: 15px;
-    line-height: 9px;
+    font-size: 1.5rem;
+    line-height: .9rem;
     text-align: center;
     color: #fac9bf;
-    background:#fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    background: #fafafa;
+    transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
 }
-
-.social-links li a i:hover{
-    background:#141a46;
+.social-links li a i:hover {
+    background: #141a46;
 }
-
 .general-sub {
     padding-top: 5%;
     font-family: "Raleway", "Exo";
     font-weight: 400;
 }
- 
 .footer-text {
-    font-family: "Raleway", "Exo";
-    font-weight: 200;
     letter-spacing: .5px;
-    height: 0px;
-
+    height: 0;
+    text-align: center;
+    color: #141a46;
+    font-family: "Raleway", "Exo";
+    font-size: 1rem;
+    font-weight: italic;
 }
-    /*--------------------------------Sign up*/
- .jumbotron{
-     text-align: center;
-     background-color: rgba(250,201,191,.7);
-     color: #141a46;
-     font-family: "Raleway", "Exo";
-     width: 60%;
-     margin: 10px auto;
-     display: flex;
-     justify-content: center;
-     box-shadow: 5px 10px;  
-      
- 
-      
- .lead {
-     font-weight: 200;
-     height: 2;
-
- }
- .jfoot {
-xp     font-weight: 200;
-     font-style: italic;
-     height: 5;
-    
-s
-    
-xp .center-form, .form-group{
-    padding-top: 10px;
-    margin:0 auto;
+/*--------------------------------Sign up*/
+.jumbotron {
+    text-align: center;
+    background-color: rgba(250, 201, 191, .7);
+    color: #141a46;
+    font-family: "Raleway", "Exo";
+    width: 60%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: .5rem 1rem;
+}
+.lead {
+    font-weight: 200;
+    height: 2;
+}
+.jfoot {
+    font-weight: 200;
+    font-style: italic;
+    height: 5;
+}
+.center-form, .form-group {
+    padding-top: 1rem;
+    margin: 0 auto;
     max-width: 70%;
     justify-content: center;
     font-family: "Raleway", "Exo";
 }
-
-.verify{
+.verify {
     font-weight: 200;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: "Raleway", "Exo";
 }
-.btn-submit[type="submit"]{
-    margin-top: 15px;
-    margin-bottom: 20px;
+.btn-submit[type="submit"] {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
     color: #141a46;
     background-color: #fac9bf;
     justify-content: center;
     font-family: "Raleway", "Exo";
     align-content: center;
+}
+@media only screen and (min-width: 768px) {
+    .switcher {
+        visibility: visible;
+    }
 }
