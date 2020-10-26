@@ -5,10 +5,49 @@
 p {
     font-size: 1.6rem;
 }
-/*--section {
-   height: 40vh;
+
+/*--------------------------------Scroll to top*/
+#buttonh {
+  display: inline-block;
+  background-color: #fac9bf;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  margin: 30px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s;
+  z-index: 1000;
+}
+#buttonh:hover {
+  cursor: pointer;
+  background-color: #141a46;
+}
+#buttonh:active {
+  background-color: #141a46;
 }
 
+#buttonh::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 50px;
+  color: #f8f9fa;
+}
+#buttonh.show {
+  opacity: 1;
+  visibility: visible;
+}
+#buttonh {
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+}
 /*--------------------------------Nav Bar*/
 #nav {
     padding-left: 0;

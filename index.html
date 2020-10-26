@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--  -->
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <title>Oka Save</title>
 </head>
 <body>
-<!--Nav Bar/ responsive element not working -->
+
+<!--Back to top button -->
+<a id="buttonh"></a>
+<!--End of back to top button -->
+
+<!--Nav Bar start-->
 <div class="container">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,8 +44,9 @@
             </div>
         </nav>
     </header>
+​<!--Nav Bar end-->
 ​
-​
+<!--Product info 1-->
     <section>
     <div class="container">
         <div class="row">
@@ -62,7 +68,9 @@
             <div class="col-12 col-sm-4 col-lg-6 hcard product1"><img src="assets/images/product1.png" alt="product1" width="300px"></div>
         </div>
         </div>
-        <!--  Personalized Goals -->
+        <!--Product info 1 end-->
+
+<!--  Personalized Goals -->
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="product2"><img src="assets/images/product2.png" alt="product2" width="100%">
@@ -76,7 +84,9 @@
                     could be a big purchase you want to save for or a trip you are planning on taking.</p>
             </div>
         </div>
-​
+​<!--  Personalized Goals End -->
+
+<!--  Three Reasons -->
         <section>
             <div class="row secure">
                 <div class="col">
@@ -108,6 +118,7 @@
             </div>
         </section>
     </section>
+    <!--  Three Reasons End -->
     <!--  Footer -->
     <footer class="footer">
         <div id="footer-details" class="row no-gutters">
@@ -158,18 +169,48 @@
         </div>
     </footer>
 </div>
-<!--  -->
+<!--  Footer End -->
+
+
+<!--  Scripts -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
-<!--  -->
+
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script> -->
-<!--  -->
+<!--  Script End  -->
+<!--  JQuery Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script>
+    jQuery(document).ready(function() {
+    
+    var btn = $('#buttonh');
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+        } else {
+        btn.removeClass('show');
+        }
+    });
+
+    btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+    });
+
+    });
+
+
+</script>
+<!--  JQuery Script End-->
+
+
 </body>
 </html>

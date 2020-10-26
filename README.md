@@ -1,12 +1,12 @@
 
 # Delila Kidanu - Oka Website Project for Milestone Project #1
 
-The Oka website project aims to showcase a new financial savings product coming to market soon. The pages
+The purpose of this project is to create a static (front-end only) website for the new Oka financial savings product coming to market soon. The pages
 explain the features of the application from savings features to growing features. The aim of the website
 is to showcase the product and educate potential users on its benefits. The website also allows for users 
 to sign up for the service and get early access.
 
-The website has a simple flow highlightint the various featurs of the product and imclues images that make
+The website has a simple flow highlightint the various featurs of the product and includes images that make
 it easier for the user to visualize what the product looks like. 
 
 ## UX
@@ -37,24 +37,24 @@ Website Wireframe here: ![Wireframe](/assets/images/wireframe.jpg)
 ## Features
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-Feature 2 - 
-Feature 3 -
-Feature 4 - 
+
+
+- Back to Top Button: This allows a user to navigate straight back to the top of the page if they would like to visit another section. It comes in extremely useful on a long section on a mobile device.
+- Social Media Links: This feature allows users to follow the company on Facebook, Twitter and Instagram for all the latest news.
+- Sign up: This feature provides a form to the user in which they can sign up for early acces of the Oka application.
+- Jumbotron: The jumbotron is the headline for the get started page, it reminds the user to sign up for early access. 
 
 ## Technology
 
-> HTML
+- HTML
 The project uses HTML5 to set up structure and content.
-> CSS
+- CSS
 The project uses CSS5 to create a simple and user friendly design. 
-> Bootstrap 4.5.2
-The project uses the Bootstrap Framework to build in interactive and layout features. https://getbootstrap.com/
-
-## Testing
-need help here
-## Deployment
-need help here
+- Bootstrap 4.5.2
+This was used to get the layout up and running quickly and also use grids to help with the responsive design
+. https://getbootstrap.com/
+- JavaScript
+The jQuery library was used by adding it to the HTML file.
 
 ## Credits
 
@@ -65,7 +65,9 @@ The text for this website was self generated.
 The photos used throughout the site were designed using the Figma tool and inputed into the website. 
 
 #### Acknowledgements
-I received inspiration for this project from a mixture of webistes but most notably Acorns and Revolut.
+I received inspiration for this project from a mixture of webistes but most notably Acorns and Revolut Websites.
+- I managed the steps to inputting a scroll to top from - https://www.templatemonster.com/blog/back-to-top-button-css-jquery/
+- Got inspiration for scroll feature from this project - https://github.com/Code-Institute-Submissions/jtuck15-milestone-project-1/blob/master/script.js
 
 ## Gitpod Reminders
 
