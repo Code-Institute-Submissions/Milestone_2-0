@@ -34,6 +34,7 @@ as a tool to test user understanding.
 
 Website Wireframe here: ![Wireframe](/assets/images/wireframe.jpg)
 
+
 ## Features
 
 Existing Features
@@ -56,6 +57,63 @@ This was used to get the layout up and running quickly and also use grids to hel
 - JavaScript
 The jQuery library was used by adding it to the HTML file.
 
+## Testing
+
+#### Functionality Testing: 
+- All the links have been checked and they all are working.
+- HTML Code Checked using [W3 Validator HMTL](https://validator.w3.org/nu/#textarea) 
+- CSS Code Checked using [W3 Validator CSS](https://jigsaw.w3.org/css-validator/validator)
+
+#### Usability Testing:
+To test the usability I tested the website myself on safari and chrome. I used multiple tools to test the 
+responsive web designs such as Responsinator and Screenfly. I pushed the website to family for testing, the feedback was 
+centered around the simplisity and ease of use. The colors selected seemed to be unique and pleasant to the eye. 
+
+Through testing the website there was some alignment and sizing issues that arised. To fix this I had to read around the Bootstrap
+containers and the effects those have on alignment. Having understood that it allows me to fix the alignment of the navigation bar 
+and the rest of the webpage to make it aesthetic and user friendly. 
+
+The Website was fully run through using multiple browsers:
+
+- Chrome
+- Firefox
+- Internet Explorer
+- Safari
+
+As well as browsers I tested on multiple screen sizes as well for verification. 
+Image of testing here: ![Screen size](/assets/images/website_screensize.png)
+
+
+
+User types testing and accessibility:
+
+1. As a curious potential customer, I want to learn more about Oka, so that I can determine if I want to use it. 
+
+The user views the website on the landing page and has various options, 1) scroll down  or 2) click on menu items. If a
+user is looking for more infrmation they will access this by scrolling down the page, starting from section 1 about the product, 
+to the "Grow your money" page and lastly sign up on "Get Started" page. 
+
+
+2. As an early adopter, I want to get first dibs on using the Oka product, so I want to sign up for early access. 
+
+Early adopters that hear about Oka and want to see what it is all about can gain further information through the webpage. 
+Their primary resource to complete their needs is on the "Get started" Page where they can leave their email address and get 
+first access to the product, before anyone else does. 
+
+3. As a potential investor, I want to find more information about the product and test is marketability, so I want
+to read and sign up early. 
+
+Potential investors come to the page to access information. As they join the page their needs are to seek information, this is 
+achieved through scrolling down the page to learn more about the product and its various features. As they scroll down they will see
+images and product explinations. They will then have the option to go to the "Grow your Money" page where they can read more about the product. 
+Investors are often looking to access the tangible product so they will be directed to the "Get started page" to fulfill this need. 
+
+4. As an early employee of Oka, I want to find out if people understand the value add of Oka, so I use the website text
+as a tool to test user understanding.  
+
+Similar to that flow of the investor, prospective employees will access information throughout. An added element that will be interesting to them
+is the social links accessed at the bottom of the home page. This will provide the employee with opportunities to seek further information about Oka. 
+
 ## Credits
 
 #### Content
@@ -68,6 +126,29 @@ The photos used throughout the site were designed using the Figma tool and input
 I received inspiration for this project from a mixture of webistes but most notably Acorns and Revolut Websites.
 - I managed the steps to inputting a scroll to top from - https://www.templatemonster.com/blog/back-to-top-button-css-jquery/
 - Got inspiration for scroll feature from this project - https://github.com/Code-Institute-Submissions/jtuck15-milestone-project-1/blob/master/script.js
+- Read me inspiration - https://github.com/marlene32100/nordicGlamping/blob/master/README.md
+## Deployment 
+
+#### GitHub Pages
+The website was deployed using the following steps:
+
+- Log in into GitHub;
+- Click on repository; 
+- Select project to be deployed;
+- Click on "Settings";
+- Scroll down to "GitHub Pages" section;
+- On "source" select "master branch" from the dropdown menu;
+- Full page will be re-loaded automatically;
+- Scroll down to "GitHub Pages" again;
+- It will read "Your site is published at https://dkidanu1.github.io/Milestone_1/"
+
+Replicate the code: 
+If you are looking to adapt of utilise this code on your own, follow the below instructions: 
+
+- Log in to GitHub;
+- Identify the repository you are looking for, in this case it can be found here https://github.com/dkidanu1/Milestone_1;
+- Top-right of the page, click on a button called "Fork";
+- This will will fork the code to your GitHub.
 
 ## Gitpod Reminders
 
